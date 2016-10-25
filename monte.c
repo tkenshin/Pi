@@ -10,7 +10,6 @@ int main(void) {
 	MonteCarlo(a);
 
 	return 0;
-
 }
 
 void MonteCarlo(int n) {
@@ -22,11 +21,9 @@ void MonteCarlo(int n) {
 
 	for(i = 0; i < n; i++) {
 		if((x += a) >= 1){
-			x--;
-	
+			x--;	
 		}
 		sum += sqrt(1 - x * x);
-
 	}
 		
 	printf("pi = %6.4f\n", 4 * sum / n);
