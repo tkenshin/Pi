@@ -5,7 +5,7 @@ void MonteCarlo(int n);
 
 int main(void) {
 
-	int a = 1000;
+	int a = 1410065408;
 
 	MonteCarlo(a);
 
@@ -26,6 +26,6 @@ void MonteCarlo(int n) {
 		sum += sqrt(1 - x * x);
 	}
 		
-	printf("pi = %6.4f\n", 4 * sum / n);
+	printf("pi = %f\n", 4 * sum / n);
 
 }
