@@ -5,7 +5,7 @@ void MonteCarlo(int n);
 
 int main(void) {
 
-	int a = 1410065408;
+	int a = 1000;
 
 	MonteCarlo(a);
 
